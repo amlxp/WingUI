@@ -38,7 +38,7 @@ class Main extends PluginBase{
 		$this->taskwingforcefield = new ForceFieldWing($this);
 		$this->taskwingtenny = new TennyWing($this);
 		$this->saveResource("time.yml");
-		$config = new Config($this->getDataFolder() . "time.yml", Config::YAML);
+		$config = new Config($this->getDataFolder(). "time.yml", Config::YAML);
 		$this->checker = $config->get("time-update");
 		$this->getServer()->getLogger()->info("§aPlugin WingUI Make by AmlxP");
 	}
