@@ -1,7 +1,8 @@
 # WingUI
 Plugin PMMP WingUI For Server Minecraft PE/BE
 
-Download Phar: https://www.mediafire.com/download/7qy556433fyymfp
+Download Phar:
+https://www.mediafire.com/download/7qy556433fyymfp
 
 List/perms:
 - AngelWing (ange.wing)
