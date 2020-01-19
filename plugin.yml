@@ -1,0 +1,37 @@
+name: WingUI
+api: 3.11.0
+version: 5.0
+author: ["amlxp"]
+main: Wings\Main
+description: PMMP WingUI Plugin Server
+discord: 282#5360
+commands:
+ wing:
+  description: "Add wing to the player!"
+  default: true
+
+permission:
+ devil.wing:
+  default: op
+  description: Devil Wing Permission
+ angle.wing:
+  default: op
+  description: Angle Wing Permission
+ fajar.wing:
+  default: op
+  description: YTFajarBlitz7 Wing Permission
+ terrain.wing:
+  default: op
+  description: Terrain Wing Permission
+ darkpurp.wing:
+  default: op
+  description: DarkPurp Wing Permission
+ phoniex.wing:
+  default: op
+  description: Phoniex Wing Permission
+ forcefield.wing:
+  default: op
+  description: ForceField Wing Permission
+ tenny.wing:
+  default: op
+  description: Tenny Wing Permission
