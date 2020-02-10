@@ -54,55 +54,55 @@ class Main extends PluginBase{
 					switch($data) {
 						case 0:
 							if(!$player->hasPermission("devil.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu Hast Keine Rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
 								if(in_array($name, $this->wingthienthan)) {
 									unset($this->wingthienthan[array_search($name, $this->wingthienthan)]);
-									$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+									$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									$this->wingdevil[] = $name;
 								}
 									if(!in_array($name, $this->wingdevil)){
 										$this->wingdevil[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 1:
 							if(!$player->hasPermission("thienthan.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu hast Keine Rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
 								if(in_array($name, $this->wingdevil)) {
 									unset($this->wingdevil[array_search($name, $this->wingdevil)]);
-									$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+									$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									$this->wingthienthan[] = $name;
 								}
 									if(!in_array($name, $this->wingthienthan)){
 										$this->wingthienthan[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 2:
 							if(!$player->hasPermission("fajar.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu Hast Keine rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
 								if(in_array($name, $this->wingthienthan)) {
 									unset($this->wingthienthan[array_search($name, $this->wingthienthan)]);
-									$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+									$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									$this->wingthienthan[] = $name;
 								}
 									if(!in_array($name, $this->wingfajar)){
 										$this->wingfajar[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 3:
 							if(!$player->hasPermission("terrain.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu hast Keine rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
@@ -113,12 +113,12 @@ class Main extends PluginBase{
 								}
 									if(!in_array($name, $this->wingterrain)){
 										$this->wingterrain[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 4:
 							if(!$player->hasPermission("darkpurp.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu hast Keine rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
@@ -129,83 +129,83 @@ class Main extends PluginBase{
 								}
 									if(!in_array($name, $this->wingdarkpurp)){
 										$this->wingdarkpurp[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 5:
 							if(!$player->hasPermission("phoniex.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu hast Keine rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
 								if(in_array($name, $this->wingdarkpurp)) {
 									unset($this->wingterrain[array_search($name, $this->wingdarkpurp)]);
-									$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+									$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									$this->wingphoniex[] = $name;
 								}
 									if(!in_array($name, $this->wingphoniex)){
 										$this->wingphoniex[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 6:
 							if(!$player->hasPermission("forcefield.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu hast Keine rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
 								if(in_array($name, $this->wingphoniex)) {
 									unset($this->wingterrain[array_search($name, $this->wingphoniex)]);
-									$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+									$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									$this->wingforcefield[] = $name;
 								}
 									if(!in_array($name, $this->wingforcefield)){
 										$this->wingforcefield[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 7:
 							if(!$player->hasPermission("tenny.wing")){
-								$player->sendMessage("§l§9WingAP§e> §r§cYou Don't Have Permission");
+								$player->sendMessage("§l§9WingAP§e> §r§cDu hast Keine rechte Für Diesen Command!");
 								return true;
 							}
 							$name = $player->getName();
 								if(in_array($name, $this->wingforcefield)) {
 									unset($this->wingforcefield[array_search($name, $this->wingforcefield)]);
-									$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+									$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									$this->wingtenny[] = $name;
 								}
 									if(!in_array($name, $this->wingtenny)){
 										$this->wingtenny[] = $name;
-										$player->sendMessage("§l§9WingAP§e> §r§aWing Active");
+										$player->sendMessage("§l§9WingAP§e> §r§aWings Aktiviert");
 									}
 									break;
 						case 8:
 						$name = $player->getName();
 							if(in_array($name, $this->wingdevil)){
 								unset($this->wingdevil[array_search($name, $this->wingdevil)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingthienthan)){
 								unset($this->wingthienthan[array_search($name, $this->wingthienthan)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingfajar)){
 								unset($this->wingfajar[array_search($name, $this->wingfajar)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingterrain)){
 								unset($this->wingterrain[array_search($name, $this->wingterrain)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingdarkpurp)){
 								unset($this->wingdarkpurp[array_search($name, $this->wingdarkpurp)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingphoniex)){
 								unset($this->wingphoniex[array_search($name, $this->wingphoniex)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingforcefield)){
 								unset($this->wingforcefield[array_search($name, $this->wingforcefield)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}elseif(in_array($name, $this->wingtenny)){
 								unset($this->wingtenny[array_search($name, $this->wingtenny)]);
-								$player->sendMessage("§l§9WingAP§e> §r§cWing Deactive");
+								$player->sendMessage("§l§9WingAP§e> §r§cWings Aus");
 								}
 								break;
 								case 9:
