@@ -7,7 +7,7 @@ description: PMMP WingUI Plugin Server
 discord: 282#5360
 commands:
  wing:
-  description: "Add wing to the player!"
+  description: "§4WingUI"
   default: true
 
 permission:
