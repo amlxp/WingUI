@@ -40,7 +40,7 @@ class Main extends PluginBase{
 		$this->saveResource("time.yml");
 		$config = new Config($this->getDataFolder() . "time.yml", Config::YAML);
 		$this->checker = $config->get("time-update");
-		$this->getServer()->getLogger()->info("§aPlugin WingUI Make by AmlxP");
+		$this->getServer()->getLogger()->info("§aPlugin WingUI Make by Crow Balde");
 	}
 
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
@@ -213,18 +213,18 @@ class Main extends PluginBase{
 								}
 					}
 				});
-			$form->setTitle("§7- Wings -");
-			$form->setContent("§7Tap the §bbutton §7for use!");
-			$form->addButton("§l§6Devil\n§r§7Perms: devil.wing");
+			$form->setTitle("§e- Wings -");
+			$form->setContent("§6Druck Denn Button um weiter zu kommen!");
+			$form->addButton("§l§6Teufel\n§r§7Perms: devil.wing");
 			$form->addButton("§l§fAngel\n§r§7Perms: angel.wing");
-			$form->addButton("§l§cYTFajar§fBlitz7\n§r§7Perms: fajar.wing");
-			$form->addButton("§l§cRedst§4circuit\n§r§7Perms: terrain.wing");
-			$form->addButton("§l§0Dark§dPurp\n§r§7Perms: darkpurp.wing");
+			$form->addButton("§l§cWasser\n§r§7Perms: wasser.wing");
+			$form->addButton("§l§cRedstone\n§r§7Perms: terrain.wing");
+			$form->addButton("§l§0Dunkelviolett\n§r§7Perms: darkpurp.wing");
 			$form->addButton("§l§6Phon§eiex\n§r§7Perms: phoniex.wing");
-			$form->addButton("§l§7ForceF§8ield\n§r§7Perms: forcefield.wing");
+			$form->addButton("§l§7Kraftfeld\n§r§7Perms: forcefield.wing");
 			$form->addButton("§l§fTenny\n§r§7Perms: tenny.wing");
-			$form->addButton("§4§lDEACTIVE");
-			$form->addButton("§c§lEXIT");
+			$form->addButton("§4§lDeaktivieren");
+			$form->addButton("§c§lWingUI Schlissen");
             $sender->sendForm($form);
 		return true;
 		}
