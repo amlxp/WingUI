@@ -1,10 +1,8 @@
-# WingUI
-Plugin PMMP WingUI For Server Minecraft PE/BE
-
 ## WingUI    [![HitCount](http://hits.dwyl.io/xSoapers/ParticlesUI.svg)](http://hits.dwyl.io/xSoapers/ParticlesUI)
 
+Plugin PMMP WingUI For Server Minecraft PE/BE
 
-*Get .phar [here](https://www.mediafire.com/download/7qy556433fyymfp)*
+*Phar: [here](https://www.mediafire.com/download/7qy556433fyymfp)*
 
 
 ## INFO
@@ -18,4 +16,4 @@ List/perms:
 - TennyWing (tenny.wing)
 - TerrainWing (terrain.wing)
 
-## SELESAI
+## END
