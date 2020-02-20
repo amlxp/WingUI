@@ -40,7 +40,7 @@ class Main extends PluginBase{
 		$this->saveResource("time.yml");
 		$config = new Config($this->getDataFolder() . "time.yml", Config::YAML);
 		$this->checker = $config->get("time-update");
-		$this->getServer()->getLogger()->info("§aPlugin WingUI Make by AmlxP");
+		$this->getServer()->getLogger()->info("§aPlugin WingUI Make by AmlxP, Thx");
 	}
 
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
