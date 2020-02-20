@@ -8,7 +8,7 @@ Plugin PMMP WingUI For Server Minecraft PE/BE
 
 
 ## INFO
-**List/perms:
+List/perms:
 - AngelWing (ange.wing)
 - DarkPurpWing (darkpurp.wing)
 - DevilWing (devil.wing)
@@ -17,8 +17,5 @@ Plugin PMMP WingUI For Server Minecraft PE/BE
 - PhoniexWing (phoniex.wing)
 - TennyWing (tenny.wing)
 - TerrainWing (terrain.wing)
-**
 
-Umprogrammiert
-von
-## Crow Balde
+## SELESAI
