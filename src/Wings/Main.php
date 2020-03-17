@@ -215,16 +215,16 @@ class Main extends PluginBase{
 				});
 			$form->setTitle("§7- Wings -");
 			$form->setContent("§7Tap the §bbutton §7for use!");
-			$form->addButton("§l§6Devil\n§r§7Perms: devil.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§fAngel\n§r§7Perms: angel.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§cYTFajar§fBlitz7\n§r§7Perms: fajar.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§cRedst§4circuit\n§r§7Perms: terrain.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§0Dark§dPurp\n§r§7Perms: darkpurp.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§6Phon§eiex\n§r§7Perms: phoniex.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§7ForceF§8ield\n§r§7Perms: forcefield.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§l§fTenny\n§r§7Perms: tenny.wing", 0, "textures/ui/brewinf_fuel_empty");
-			$form->addButton("§4§lDEACTIVE", 0, "textures/ui/"gear");
-			$form->addButton("§c§lEXIT", 0, "textures/ui/redX1");
+			$form->addButton("§l§6Devil\n§r§7Perms: devil.wing");
+			$form->addButton("§l§fAngel\n§r§7Perms: angel.wing");
+			$form->addButton("§l§cYTFajar§fBlitz7\n§r§7Perms: fajar.wing");
+			$form->addButton("§l§cRedst§4circuit\n§r§7Perms: terrain.wing");
+			$form->addButton("§l§0Dark§dPurp\n§r§7Perms: darkpurp.wing");
+			$form->addButton("§l§6Phon§eiex\n§r§7Perms: phoniex.wing");
+			$form->addButton("§l§7ForceF§8ield\n§r§7Perms: forcefield.wing");
+			$form->addButton("§l§fTenny\n§r§7Perms: tenny.wing");
+			$form->addButton("§4§lDEACTIVE");
+			$form->addButton("§c§lEXIT");
             $sender->sendForm($form);
 		return true;
 		}
